@@ -14,9 +14,9 @@ interface Item {
 }
 
 const icons = [
-    { src: '/shippingsvg.svg', title: 'Free Shipping', text: 'No charge for each delivery' },
-    { src: '/wallet.svg', title: 'Quick Payment', text: '100% secure payment' },
-    { src: '/support.svg', title: '10:00-19:00 Support', text: 'Quick support' },
+    { src: '/home/shippingsvg.svg', title: 'Free Shipping', text: 'No charge for each delivery' },
+    { src: '/home/wallet.svg', title: 'Quick Payment', text: '100% secure payment' },
+    { src: '/home/support.svg', title: '10:00-19:00 Support', text: 'Quick support' },
 ];
 
 const previewIds = [1, 5, 8];
@@ -56,7 +56,7 @@ export const Preview = () => {
                     <Link to="/shop" className="preview-popular-left-btn">
                         See all collection
                         <img
-                            src="/vector.svg"
+                            src="/home/vector.svg"
                             alt="vector"
                             className="preview-left-btn-img"
                         />

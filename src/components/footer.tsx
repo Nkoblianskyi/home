@@ -3,10 +3,10 @@ import { Menu } from "../elements/menu"
 
 export const Footer = () => {
     const socialMedia = [
-        { href: 'https://www.instagram.com', image: '/Instagram.svg', alt: 'icon instagram' },
-        { href: 'https://www.x.com', image: '/Twitter.svg', alt: 'icon c' },
-        { href: 'https://www.linkedIn.com', image: '/LinkedIn.svg', alt: 'icon linkedIn' },
-        { href: 'https://www.facebook.com', image: '/facebook.svg', alt: 'icon facebook' },
+        { href: 'https://www.instagram.com', image: '/home/Instagram.svg', alt: 'icon instagram' },
+        { href: 'https://www.x.com', image: '/home/Twitter.svg', alt: 'icon c' },
+        { href: 'https://www.linkedIn.com', image: '/home/LinkedIn.svg', alt: 'icon linkedIn' },
+        { href: 'https://www.facebook.com', image: '/home/facebook.svg', alt: 'icon facebook' },
     ];
     
     return (
